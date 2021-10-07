@@ -1,8 +1,8 @@
 import { ethers } from "hardhat"
 
 async function main() {
-    const Zaikov = await ethers.getContractFactory("Token");
-    const token = await Zaikov.deploy();
+    const Zaykov = await ethers.getContractFactory("Token");
+    const token = await Zaykov.deploy();
     token.deployed;
 
     console.log("ZAYA deployed to:", token.address);
